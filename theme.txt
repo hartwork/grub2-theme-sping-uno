@@ -1,0 +1,37 @@
+# Theme for GRUB 2.02~beta2
+# Copyright (C) 2015 Sebastian Pipping <sebastian@pipping.org>
+# Licensed under CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)
+
+title-text: ""
+
+desktop-image: "lavalamp17-green.png"
+
+
++ canvas {
+    left = 30%
+    width = 45%
+    top = 28%
+    height = 60%
+
+    + boot_menu {
+        left = 0
+        width = 100%
+        top = 0
+        height = 100%
+
+        item_padding = 0
+        icon_width = 15
+        item_icon_space = 2
+
+        icon_height = 15
+        item_height = 15
+        selected_item_font = "DejaVu Sans Bold 14"
+        item_font = "DejaVu Sans Regular 14"
+        selected_item_color = "#ffffff"
+        item_color = "#ffffff"
+        selected_item_pixmap_style = "selected_*.png"
+        item_pixmap_style = "not_selected_*.png"
+
+        item_spacing = 24
+    }
+}
